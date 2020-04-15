@@ -14,12 +14,12 @@ class Storyline extends StatelessWidget {
       children: [
         Text(
           'Story line',
-          style: textTheme.subhead.copyWith(fontSize: 18.0),
+          style: textTheme.headline3.copyWith(fontSize: 18.0),
         ),
         SizedBox(height: 8.0),
         Text(
           storyline,
-          style: textTheme.body1.copyWith(
+          style: textTheme.bodyText1.copyWith(
             color: Colors.black45,
             fontSize: 16.0,
           ),
@@ -32,7 +32,7 @@ class Storyline extends StatelessWidget {
           children: [
             Text(
               'more',
-              style: textTheme.body1
+              style: textTheme.bodyText1
                   .copyWith(fontSize: 16.0, color: theme.accentColor),
             ),
             Icon(

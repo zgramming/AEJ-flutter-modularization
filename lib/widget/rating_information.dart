@@ -33,7 +33,7 @@ class RatingInformation extends StatelessWidget {
       children: [
         Text(
           rating.toString(),
-          style: textTheme.title.copyWith(
+          style: textTheme.bodyText1.copyWith(
             fontWeight: FontWeight.w400,
             color: theme.accentColor,
           ),
